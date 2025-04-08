@@ -1,2 +1,2 @@
 # gestione-spazi-domain
-Progetto filale stage 2025
+Gestisce le informazioni sugli spazi di lavoro e la loro disponibilità.
