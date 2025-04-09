@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-gestione-spazi-domain
+  namespace: gestione-spazi
+data:
+  DB_URL: # da definire

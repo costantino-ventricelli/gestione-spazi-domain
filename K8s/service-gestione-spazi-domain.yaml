@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: gestione-spazi-domain-service
+  namespace: gestione-spazi
+  labels:
+    app: gestione-spazi-domain
+spec:
+  selector:
+    app: gestione-spazi-domain
+  ports:
+  - port: 8080
+    targetPort: 8080
